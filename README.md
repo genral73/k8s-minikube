@@ -1,5 +1,16 @@
 
 # Installing minikube and kubctl
+> Minikube is an open source tool that was developed to enable developers and system administrators to run a single cluster of Kubernetes on their local machine. Minikube starts a single node kubernetes cluster locally with small resource utilization. This is ideal for development tests and POC purposes.
+
+> Minikube supports Kubernetes features such as:
+> 1. DNS
+> 2. NodePorts
+> 3. ConfigMaps and Secrets
+> 4. Dashboards
+> 5. Container Runtime: Docker, CRI-O, and containerd
+> 6. Enabling CNI (Container Network Interface)
+> 7. Ingress
+> 8. PersistentVolumes of type hostPath
 
 ## Step 1: Update system
 ##### Run the following commands to update all system packages to the latest release:
