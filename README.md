@@ -1,5 +1,5 @@
 
-# Installing minikube and kubctl
+# Installing Minikube
 > Minikube is an open source tool that was developed to enable developers and system administrators to run a single cluster of Kubernetes on their local machine. Minikube starts a single node kubernetes cluster locally with small resource utilization. This is ideal for development tests and POC purposes.
 >
 > Minikube supports Kubernetes features such as:
