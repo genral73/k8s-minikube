@@ -1,7 +1,4 @@
-
 # Installing Minikube
-> Minikube is an open source tool that was developed to enable developers and system administrators to run a single cluster of Kubernetes on their local machine. Minikube starts a single node kubernetes cluster locally with small resource utilization. This is ideal for development tests and POC purposes.
->
 > Minikube supports Kubernetes features such as:
 > 1. DNS
 > 2. NodePorts
@@ -12,6 +9,15 @@
 > 7. Ingress
 > 8. PersistentVolumes of type hostPath
 
+
+## Prerequisites
+1. To check if virtualization is supported on Linux, run the following command and verify that the output is non-empty:
+```bash
+grep -E --color 'vmx|svm' /proc/cpuinfo
+```
+2. Make sure you have kubectl installed. You can install kubectl according to the instructions in [Install and Setup kubectl.](https://github.com/genral73/k8s-cli#install-setup-and-overview-kubectl)
+	<br/>
+	
 ## Step 1: Update system
 ##### Run the following commands to update all system packages to the latest release:
 ```shell
